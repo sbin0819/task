@@ -9,9 +9,9 @@ import { dropdownOptions } from 'features/user-list/consts/tableHeaders';
 import useFilteredTableData from 'features/user-list/hooks/useFilteredTableData';
 import { useAtomValue } from 'jotai';
 import { useMemo, useState } from 'react';
-import { IUser } from 'shared/api/users/types';
 import UserData from 'shared/data/user_list.json';
 import { meAtom } from 'shared/store/me';
+import { IUser } from 'shared/types/users/types';
 
 export default function UserList() {
   const me = useAtomValue(meAtom);

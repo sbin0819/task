@@ -1,5 +1,5 @@
 import { baseApi } from 'shared/api/base';
-import { IUser } from 'shared/api/users/types';
+import { IUser } from 'shared/types/users/types';
 import { LoginBody } from './types';
 
 export const login = (body: LoginBody): Promise<{ data: IUser }> =>

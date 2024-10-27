@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { IUser } from 'shared/api/users/types';
 import userData from 'shared/data/user_list.json';
+import { IUser } from 'shared/types/users/types';
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === 'POST') {

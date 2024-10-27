@@ -1,7 +1,7 @@
 import { useAtomValue } from 'jotai';
 import { useMemo } from 'react';
-import { ITask } from 'shared/api/tasks/types';
 import { meAtom } from 'shared/store/me';
+import { ITask } from 'shared/types/tasks/types';
 
 interface FilteredDataProps {
   data: ITask[];

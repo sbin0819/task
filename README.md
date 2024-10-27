@@ -12,6 +12,14 @@
 
 # 설치 및 실행
 
+**pnpm 설치**
+
+pnpm이 설치되어 있지 않은 경우, 다음 명령어를 사용하여 pnpm을 글로벌로 설치하세요:
+
+```bash
+npm install -g pnpm
+```
+
 **설치**
 
 ```bash
@@ -23,6 +31,14 @@ pnpm install
 ```bash
 pnpm dev
 ```
+
+**배포 확인**
+
+pnpm 및 node 환경에 따라 설치 문제 대비로 배포해두었습니다.
+
+https://task-tau-gules.vercel.app/login
+
+login 은 `src/shared/data/user_list.json` 의 userEmail 을 활용하시면 됩니다.
 
 ---
 

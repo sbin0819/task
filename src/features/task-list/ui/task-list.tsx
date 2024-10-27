@@ -7,8 +7,8 @@ import Table, {
 import { tableHeaders } from 'features/task-list/consts/table';
 import { dropdownOptions } from 'features/task-list/consts/tableHeaders';
 import { useMemo, useState } from 'react';
-import { ITask } from 'shared/api/tasks/types';
 import TaskData from 'shared/data/task_list.json';
+import { ITask } from 'shared/types/tasks/types';
 import useFilteredTableData from '../hooks/useFilteredTableData';
 import TaskModal from './task-modal';
 

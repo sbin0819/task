@@ -1,7 +1,7 @@
 // components/TaskModal.tsx
 import * as Dialog from '@radix-ui/react-dialog';
-import { CheckIcon } from '@radix-ui/react-icons';
-import { Button, Flex } from '@radix-ui/themes';
+import { CheckIcon, PersonIcon } from '@radix-ui/react-icons';
+import { Button, Flex, Text } from '@radix-ui/themes';
 import {
   initialDeliveryForm,
   initialPurchaseForm,
@@ -143,7 +143,12 @@ export default function TaskModal() {
         <Dialog.Overlay className="fixed inset-0 bg-blackA6 data-[state=open]:animate-overlayShow" />
         <Dialog.Content className="fixed left-1/2 top-1/2 max-h-[90vh] w-[90vw] max-w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-md bg-white p-[25px] shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,_hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] focus:outline-none data-[state=open]:animate-contentShow overflow-scroll">
           <Dialog.Title className="m-0 text-2xl font-medium text-mauve12">
-            Task 생성
+            <Flex align="center" className="gap-2">
+              <Flex className="bg-blue-500 p-1 text-white rounded-lg">
+                <PersonIcon height="22px" width="22px" />
+              </Flex>
+              <Text>Task 생성</Text>
+            </Flex>
           </Dialog.Title>
           <Flex direction="column" className="mt-10 gap-4">
             <CommonFields

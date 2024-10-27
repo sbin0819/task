@@ -1,7 +1,7 @@
 import { useAtomValue } from 'jotai';
 import { useMemo } from 'react';
-import { IUser } from 'shared/api/users/types';
 import { meAtom } from 'shared/store/me';
+import { IUser } from 'shared/types/users/types';
 
 interface FilteredDataProps {
   data: IUser[];
