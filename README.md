@@ -24,6 +24,14 @@ pnpm install
 pnpm dev
 ```
 
+**배포 확인**
+pnpm 및 node 환경에 따라 설치 문제 대비로 배포해두었습니다.
+
+아래 url 참고
+https://task-tau-gules.vercel.app/login
+
+login 은 `src/shared/data/user_list.json` 의 userEmail 을 활용하시면 됩니다.
+
 ---
 
 # QA
