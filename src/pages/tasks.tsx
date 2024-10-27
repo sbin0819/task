@@ -1,4 +1,4 @@
-import TaskList from 'features/task-list/ui/task-list';
+import TaskList from 'features/task-list/ui';
 import { ReactElement } from 'react';
 import DashBoardLayout from 'shared/layout/dashboard';
 

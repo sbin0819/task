@@ -1,4 +1,4 @@
-import UserList from 'features/user-list/ui/user-list';
+import UserList from 'features/user-list/ui';
 import { useAtomValue } from 'jotai';
 import { useRouter } from 'next/router';
 import { ReactElement, useEffect } from 'react';
